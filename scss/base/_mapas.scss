@@ -1,0 +1,19 @@
+/*Mapas t
+tienen una key y un valor*/
+
+$usuarios-standard: (
+    color-standart: grey,
+    bg-standart: grey
+
+);
+
+$usuarios-clientes:$usuarios-clientes (
+    color-clientes: black,
+    bg-clientes: black
+
+);
+
+.usuarios-standart {
+    color: map-get($usuarios-standard , color-standard);
+    background-color: map-get($usuarios-standard , bg-standard);
+}

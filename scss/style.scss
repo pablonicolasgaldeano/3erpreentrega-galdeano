@@ -1,0 +1,14 @@
+/*Nesting o anidamiento general*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Importando archivos scss*/
+
+@import "base/variables"
+@import "componentes/headerynav"
+@import "componentes/pageandfooter"
+@import "base/mediaquery"
+@import "base/mapas"
+
