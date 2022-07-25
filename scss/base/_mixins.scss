@@ -1,0 +1,7 @@
+@mixin ngd ($vacio) {
+    transform: $vacio;
+}
+
+.ngd-animaciones {
+    @include ngd (translate(50%));
+}

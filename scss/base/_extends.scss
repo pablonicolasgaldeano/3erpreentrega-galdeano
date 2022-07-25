@@ -1,0 +1,12 @@
+/*propiedades comunes en grupos de botones*/
+
+%botones {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.error {
+    background-color: grey;
+    @extend %botones;
+}

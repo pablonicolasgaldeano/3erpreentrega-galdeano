@@ -17,3 +17,8 @@ $usuarios-clientes:$usuarios-clientes (
     color: map-get($usuarios-standard , color-standard);
     background-color: map-get($usuarios-standard , bg-standard);
 }
+
+.usuarios-clientes {
+    color: map-get($usuarios-clientes, color-clientes);
+    background-color: map-get($usuarios-clientes, bg-clientes);
+}
